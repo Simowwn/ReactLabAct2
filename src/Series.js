@@ -8,11 +8,10 @@ const imageUrls = [
 ];
 
 function Series() {
-  // Create an array of 2 rows, each containing 3 unique images
   const rows = Array.from({ length: 2 }, (_, rowIndex) => (
     <div key={rowIndex} className="row">
       {imageUrls.slice(rowIndex * 3, rowIndex * 3 + 3).map((url, colIndex) => (
-        <img key={colIndex} src={url} alt="" />
+        <img key={colIndex} src={url} alt="" className="image-item" />
       ))}
     </div>
   ));

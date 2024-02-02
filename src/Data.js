@@ -49,7 +49,7 @@ export const collectiblesData = [
     name: "Smiski Handstand",
     body: "Body Type: Chubby",
     pose: "Pose: Handstand",
-    found: "Found: Around corners of the room",
+    found: "Found: Around corners of the room ",
     description:
       "Always found doing a handstand against the wall. If you look closely, the peeking Smiski from Series 2 is actually always trying to copy this Smiski.",
   },

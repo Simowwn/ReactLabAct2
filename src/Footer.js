@@ -2,7 +2,9 @@ function Footer() {
   return (
     <footer className="row">
       <div>
-        <h6 className="footer-cr">© 2016 Dreams Inc.</h6>
+        <h6 className="footer-cr" style={{ color: " #777777" }}>
+          © 2016 Dreams Inc.
+        </h6>
       </div>
       <div>
         <ul className="row-ullinks">

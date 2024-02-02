@@ -14,7 +14,7 @@ function Collections(props) {
           <p>{props.collectiblesObj.body}</p>
           <p>{props.collectiblesObj.pose}</p>
           <p>{props.collectiblesObj.found}</p>
-          <hr></hr>
+          <hr className="collections-hr"></hr>
           <p>{props.collectiblesObj.description}</p>
         </div>
       </div>

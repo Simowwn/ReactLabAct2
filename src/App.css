@@ -130,8 +130,8 @@ a:hover {
   color: #606060;
   font-size: 15px;
 }
-hr {
-  color: black;
+.collections-hr {
+  border-top: 1px solid black;
 }
 .info-container {
   padding-left: 220px;
@@ -141,6 +141,7 @@ hr {
   display: flex;
   justify-content: center; /* Horizontally center the content */
   align-items: center; /* Vertically center the content */
+  font-family: sans-serif;
 }
 .info-card {
   background-color: #ffd700;
@@ -182,6 +183,13 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.image-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-item:hover {
+  transform: scale(1.1);
 }
 footer {
   background-color: #eeee22;
