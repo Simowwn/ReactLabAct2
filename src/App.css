@@ -31,6 +31,9 @@ a {
   color: #777777;
   font-weight: bold;
 }
+a:hover {
+  color: rgba(136, 201, 22, 1);
+}
 .nav-links {
   display: flex;
   align-items: center; /* Vertically center the ul within .nav-links */
@@ -112,6 +115,16 @@ a {
   font-size: 1rem;
   border-radius: 10px;
   color: #606060;
+}
+.card-container {
+  position: relative;
+  transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+  opacity: 0.9; /* Adjust as needed */
+  background-color: #e0e0e0; /* Adjust as needed */
 }
 .card-content {
   color: #606060;

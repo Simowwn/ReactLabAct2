@@ -3,7 +3,7 @@ function Collections(props) {
 
   return (
     <div className={collectiblesClasses}>
-      <div className="">
+      <div className="card-container">
         <img
           className="collectible-img"
           src={props.collectiblesObj.photoName}
