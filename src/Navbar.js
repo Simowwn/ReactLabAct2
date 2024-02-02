@@ -17,8 +17,28 @@ function Navbar() {
           <li>
             <a href="#">SMISKI</a>
           </li>
-          <li>
-            <a href="#">PRODUCTS</a>
+          <li className="dropdown">
+            <a className="dropbtn">PRODUCTS</a>
+            <div className="dropdown-content">
+              <a href="#">Moving Series</a>
+              <a href="#">Exercising Series</a>
+              <a href="#">Dressing Series</a>
+              <a href="#">@Work</a>
+              <a href="#">Museum</a>
+              <a href="#">Cheer</a>
+              <a href="#">Yoga Series</a>
+              <a href="#">Bed</a>
+              <a href="#">Living</a>
+              <a href="#">Bath Series</a>
+              <a href="#">Toilet Series</a>
+              <a href="#">Series 4</a>
+              <a href="#">Series 3</a>
+              <a href="#">Series 2</a>
+              <a href="#">Series 1</a>
+              <a href="#">ZIPPERBITE SMISKI</a>
+              <a href="#">Rainbomb SMISKI</a>
+              <a href="#">Bobbing Head</a>
+            </div>
           </li>
           <li>
             <a href="#">WHERE TO BUY</a>
